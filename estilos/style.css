@@ -14,11 +14,13 @@ html, body{
     height: 100vh;
     width: 100vw;
 }
+
 main{
     position: relative;
     height: 100vh;
     width: 100vw;
 }
+
 section#login{
     position: absolute;
     top: 50%;
@@ -32,10 +34,11 @@ section#login{
     border-radius: 20px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.801);
 
-    transition: width 0.4s, height 0.4s;
-    transition-timing-function: ease;
-    transform: translate(-50%, -50%);
+    transition: width 0.4s, height 0.4s; /*Pequena animação quando modifica a largura e altura da tela de login*/
+    transition-timing-function: ease; /*especifica a curva de aceleração que uma transição deve seguir. No caso de ease, a transição começará devagar, acelerará no meio e desacelerará no final. */
+    transform: translate(-50%, -50%); /*Modifica a posição, lados e dps cima ou baixo, o sinal define pra qual direção*/
 }
+
 section#login > div#imagemlogin{
     display: block;
     background: url(../imagens/carro.jpg);
@@ -44,34 +47,42 @@ section#login > div#imagemlogin{
     background-position: center center;
     height: 200px;
 }
+
 section#login > div#formulario{
     display: block;
     padding: 10px;
     
 }
+
 div#formulario > div#logintitulo > h1#titulopequeno{
     text-align: center;
     display: inline-block;
     margin-bottom: 10px;
     transform: translate(100px, -20px);
 }
+
 div#formulario > div#logintitulo > img#logoferraripequeno{
     margin: auto;
     transform: translate(130px);
 }
+
 div#formulario >  h1#titulomedio{
     display: none;
 }
+
 div#formulario > div#logintitulo > img#logoferrarigrande{
     display: none;
 }
+
 div#formulario > div#logintitulo > img#logoferrarimedio{
     display: none;
 }
+
 div#formulario > p{
     font-size: 0.8em;
     margin-bottom: 12px;
 }
+
 form > div.campo{
     background-color: darkred;
     border: 2px solid rgb(78, 1, 1);
@@ -82,6 +93,7 @@ form > div.campo{
     margin: 5px 0px; /*cima baixo 5px; dois lados 0px*/
 
 }
+
 div.campo > label{
     display: none;
 }
@@ -93,19 +105,22 @@ div.campo > span{
     padding: 5px;
     transform: translate(0px, -2px);
 }
+
 div.campo > input{
     background-color: #b8b8b8;
     font-size: 1em;
-    width: calc(100% - 40px);
+    width: calc(100% - 40px); /*ajuste da largura dos inputs, ligado ao juntar com os icones email e senha, usando o transform: translate(??px,??px)*/
     height: 100%;
     border: 0px;
     border-radius: 8px;
     padding: 4px;
     transform: translate(40px, -42px);
 }
+
 div.campo > input:focus-within{
     background-color: white;
 }
+
 form > input[type=submit]{
     display: block;
     font-size: 1em;
@@ -118,10 +133,12 @@ form > input[type=submit]{
     cursor: pointer;
     margin: auto;
 }
+
 form > input[type=submit]:hover{
     background-color: rgb(255, 127, 127);
     cursor: pointer;
 }
+
 form > a.botao{
     display: block;
     margin: auto;
@@ -137,18 +154,22 @@ form > a.botao{
     padding-top: 5px;
     margin-top: 5px;
 }
+
 form a.botao:hover{
     background-color: rgb(255, 127, 127);
 }
+
 form > a.botao > span{
     font-size: 0.8em;
 }
+
 #cadastro{
     display: block;
     text-align: center;
     margin-top: 20px;
     color: darkred;
 }
+
 #cadastro:hover{
     color: rgb(167, 110, 5);
 }
