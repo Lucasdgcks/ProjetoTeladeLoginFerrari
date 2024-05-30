@@ -28,7 +28,7 @@ section#login{
     overflow: hidden;
 
     background-color: rgb(216, 216, 216);
-    width: 400px;
+    width: 360px;
     height: 560px;
     margin: auto;
     border-radius: 20px;
@@ -58,12 +58,12 @@ div#formulario > div#logintitulo > h1#titulopequeno{
     text-align: center;
     display: inline-block;
     margin-bottom: 10px;
-    transform: translate(140px, -20px);
+    transform: translate(130px, -20px);
 }
 
 div#formulario > div#logintitulo > img#logoferraripequeno{
     margin: auto;
-    transform: translate(150px);
+    transform: translate(140px);
 }
 
 div#formulario >  h1#titulomedio{
