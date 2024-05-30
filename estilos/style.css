@@ -28,7 +28,7 @@ section#login{
     overflow: hidden;
 
     background-color: rgb(216, 216, 216);
-    width: 300px;
+    width: 400px;
     height: 560px;
     margin: auto;
     border-radius: 20px;
@@ -58,12 +58,12 @@ div#formulario > div#logintitulo > h1#titulopequeno{
     text-align: center;
     display: inline-block;
     margin-bottom: 10px;
-    transform: translate(100px, -20px);
+    transform: translate(140px, -20px);
 }
 
 div#formulario > div#logintitulo > img#logoferraripequeno{
     margin: auto;
-    transform: translate(130px);
+    transform: translate(150px);
 }
 
 div#formulario >  h1#titulomedio{
@@ -79,7 +79,8 @@ div#formulario > div#logintitulo > img#logoferrarimedio{
 }
 
 div#formulario > p{
-    font-size: 0.8em;
+    font-size: 0.9em;
+    text-align: center;
     margin-bottom: 12px;
 }
 
@@ -132,6 +133,7 @@ form > input[type=submit]{
     border-radius: 5px;
     cursor: pointer;
     margin: auto;
+    margin-top: 10px;
 }
 
 form > input[type=submit]:hover{
